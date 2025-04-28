@@ -97,3 +97,52 @@ body {
 
     margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 100%;
+        padding: 16px;
+        border-radius: 16px;
+    }
+
+    .container picture img {
+        width: 100%;
+        max-height: auto;
+        margin-bottom: 16px;
+    }
+
+    .content {
+        margin: 10px;
+        gap: 16px;
+    }
+
+    .content .info {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .info .info1, .info3, .textos {
+        gap: 8px;
+    }
+
+    .info2 ul li {
+        margin-inline-start: 5px;
+        margin-block: 8px;
+    }
+
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .rodape p img {
+        margin-top: 10px;
+    }
+}
